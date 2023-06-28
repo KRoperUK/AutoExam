@@ -1,0 +1,47 @@
+display_question_number,total_marks,question,diagrams,format,section,choices
+1),0,The specification of two CPUs is shown in Fig. 1.,,short-answer,1,
+1) a),1,"When running a 3D flight simulator, Computer 1 is likely to run faster than Computer 2. Using the information in Fig. 1, identify one reason for this.",,short-answer,1,
+1) b),2,"IdentifytwootherpartsofacomputerthatarenotinFig.1,whichcouldimprovethe performance of the computers.",,short-answer,1,
+1) c),2,Explain one reason why the cache size affects the performance of the CPU.,,short-answer,1,
+1) d),2,Identifytwoeventsthattakeplaceduringthefetch-executecycle.,,short-answer,1,
+2),0,Nina wants to transfer photos from a digital camera to an external secondary storage device.,,short-answer,2,
+2) a),1,Define what is meant by ‘secondary storage’.,,short-answer,2,
+2) b),3,IdentifythethreecommontypesofstorageNinacanchoosefrom.,,short-answer,2,
+2) c),4,State four characteristics of secondary storage devices that Nina should consider when choosing a device.,,short-answer,2,
+3),0,A satellite navigation system (Sat Nav) uses RAM and ROM.,,short-answer,3,
+3) a),3,Tick (/) one box in each row to show whether each of the statements is true for the RAM or ROM in a Sat Nav.,,short-answer,3,
+3) b),1,TheSatNavcontainsanembeddedsystem.Definewhatismeantbyan‘embeddedsystem’.,,short-answer,3,
+3) c),3,"Identify three devices, other than a Sat Nav, which contain embedded systems.",,short-answer,3,
+4),0,A computer records an audio file of someone playing a guitar.,,short-answer,4,
+4) a),2,Describe what happens when the computer converts the music into a file.,,short-answer,4,
+4) b),2,The sample rate is increased on the computer when recording the guitar. Give two effects this will have on the recording.,,short-answer,4,
+5) a),1,Convert the binary number 11001011 into denary.,,short-answer,5,
+5) b),1,Complete a 2-place shift to the right on the binary number 11001011.,,short-answer,5,
+5) c),2,Explain the effect of performing a 2-place shift to the right on the binary number 11001011.,,short-answer,5,
+"6) ",2,The table gives the ASCII code for the characters. Explain how the word MOP will be represented in ASCII.,,short-answer,6,
+7),0,"The owners of a large bakery have a Local Area Network (LAN) with a star topology. They order their supplies over the Internet. When data is transmitted from the bakery to the supplier, network protocols are used.",,short-answer,7,
+7) a),1,Define what is meant by a ‘network protocol’.,,short-answer,7,
+7) b),0,TCP/IPisasetofprotocolsbasedonlayers.,,short-answer,7,
+7) b) i),1,"Withregardstonetworkprotocols,definewhatismeantbya‘layer’.",,short-answer,7,
+7) b) ii),2,Describeoneadvantageofusinglayerstoconstructnetworkprotocols.,,short-answer,7,
+7) c),2,Give two reasons why the bakery may use a star network topology for their LAN.,,short-answer,7,
+8),9,A hospital stores patients’ details on its computer network. The hospital is concerned about the security of its patients’ details.,,short-answer,8,
+8) a),6,"Staff already use strong passwords to protect systems. Explain, with reference to system
+security, three other ways that the hospital could protect the network system.",,short-answer,8,
+8) b),6,Identify three errors that the hospital staff could make that may endanger the security of the network. Outline a procedure that could be put in place to prevent each error.,,short-answer,8,
+9),0,A restaurant has a computer-based ordering system which is running slowly. A technician has said that the hard disc drive is fragmented. The technician has suggested using utility software to defragment the drive.,,short-answer,9,
+9) a),4,Explain how the restaurant’s hard disc could have become fragmented.,,short-answer,9,
+9) b),3,"Explainhowdefragmentationsoftwarecouldovercometheissueoftheslowcomputer system.
+",,short-answer,9,
+10),0,"A law company currently use a Local Area Network (LAN) linked to a Wide Area Network (WAN).
+They want to upgrade their system to utilise cloud storage.",,short-answer,10,
+10) a),1,Define what is meant by a Wide Area Network.,,short-answer,10,
+10) b),4,ExplaintwoadvantagestothelawcompanyofstoringtheirdataintheCloud.,,short-answer,10,
+10) c),4,Explain two disadvantages to the law company of storing their data in the Cloud.,,short-answer,10,
+10) d),6,Fig.2listssomeactionsthatmaytakeplaceinthelawcompany’soffice.Tick()oneboxin each row to show which legislation applies to each action.,,short-answer,10,
+11),8,"People often want to buy the most up-to-date smartphones, even though the smartphone they own still works.
+Discuss the impact of people wanting to upgrade to the latest smartphone. In your answer, you might consider the impact on:
+ smartphone users
+ cultural issues
+ ethical issues
+ environmental issues.",,long-answer,11,

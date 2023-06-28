@@ -1,0 +1,128 @@
+<body>
+    <header>
+        <center>
+            <h1>{{exam_title}}</h1>
+            <h2>{{exam_subject}}</h2>
+            <h3><b>Total marks:</b> ___ / {{exam_total_marks}}</h3>
+            <hr style="margin-top:3em;">
+            <h2><b>Time allowed:</b> {{exam_time_allowed}} minutes</h2>
+            <h3><b>Student forename:</b>   ________________</h3>
+            <h3><b>Student surname:</b>   ________________</h3>
+            <h3><b>Student class:</b>   ____________</h3>
+            <hr style="margin-top:3em;">
+            <h2><b>Instructions:</b></h2>
+            <ol style="text-align: left;">
+                <li><h3>Do not turn over the page until told to do so.</h3></li>
+                <li><h3>Do not write inside the QR codes near the number of marks.</h3></li>
+                <li><h3>Answer all questions.</h3></li>
+                <li><h3>Write your answers in the space provided.</h3></li>
+            </ol>
+        </center>
+        
+        <hr style="margin-bottom: 5em; page-break-after: always;">
+        <h3 class="blank-warning">THIS PAGE IS INTENTIONALLY LEFT BLANK</h3>
+        <hr style="margin-bottom: 5em; page-break-after: always; border:none;">
+    </header>
+
+    <article>
+        {{questions}}
+    </article>
+</body>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .question-number {
+        width: 4em;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    table td.question {
+        border-top: thin solid; 
+        border-bottom: thin solid;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    
+    table td:nth-child(n).question {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    table td:first-child.question {
+        border-left: thin solid;
+        border-radius: 0.5em 0 0 0.5em;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        text-align: center;
+    }
+    table td.question-marks-available {
+        border-left: thin solid;
+        font-weight: bold;
+        width: 2em;
+        text-align: center;
+    }
+    table td:last-child.question {
+        border-right: thin solid;
+    }
+
+    td.question-table-cell {
+        border-right: thin solid;
+    }
+    td.answer-area {
+        height: 2.5em;
+        border-bottom: dashed thin;
+    }
+    .page-break {
+        page-break-after: always;
+    }
+    .page-break:last-child {
+        page-break-after: avoid;
+    }
+    footer {
+        margin-top: 5em;
+    }
+    .question-break {
+        height: 1.2em;
+    }
+    td.question-qr-code {
+        transform: translate(50%);
+    }
+    h1 {
+        font-size: 4em;
+        margin-bottom: 0;
+        padding-top: 3em;
+    }
+    h2 {
+        margin-bottom: 1em;
+    }
+    img {
+        max-width: 15mm;
+        max-height: 15mm;
+    }
+    table.print-friendly tr td, table.print-friendly tr th {
+        page-break-inside: avoid;
+    }
+    table.question-heading tr td, table.question-heading tr th {
+        border: 0;
+    }
+    .blank-warning {
+        text-align: center;
+        /* position: absolute; */
+        padding-top: 20em;
+        /* transform: translate(-50%, -50%); */
+    }
+    li.multiple-choice {
+        list-style-type: none;
+        padding-top: 0.5em;
+        margin: 0;
+    }
+    span.multiple-choice {
+        vertical-align: middle;
+        margin-right: 0.5em;
+        font-size: 2em;
+    }
+</style>

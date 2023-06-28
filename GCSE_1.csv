@@ -1,0 +1,8 @@
+display_question_number,total_marks,question,diagrams,format,section,choices
+"1) a)",4,"Explain the FDE cycle","","long-written",1
+"1) b)",2,"Are instructions decoded during the fetch part of the FDE cycle? <b>Explain</b> your answer. Do not leave a simple yes/no.","","short-written",1
+"2) a)",1,"What does LAN stand for?","","short-written",2
+"3) a)",9,"Discuss the ethical concerns of using AI in the creative industries.","","short-written",3
+"3) b)",4,"Which of the following are true about using AI?","","multiple-choice",3,"['It results in higher costs compared to humans.', 'It results in lower costs compared to humans.', 'Incorrectly configured AI can cause errors.', 'AI can be used to replace humans.']"
+"Challenge 1",3,"Write the Python code to record an input of someone's name as an integer.","","short-written",4
+"Challenge 2",5,"Write the Python code for a for loop which prints the numbers 1-100 (inclusive).","","short-written",4
