@@ -1,0 +1,2 @@
+# AutoExam
+A Python-based exam creation suite
