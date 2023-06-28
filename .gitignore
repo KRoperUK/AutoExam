@@ -1,3 +1,4 @@
 *.pdf
 *.svg
 log.html
+!Example.pdf
