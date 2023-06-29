@@ -1,0 +1,1 @@
+python3 main.py -c --subject "Computer Science" --title "CS Unit 1"
