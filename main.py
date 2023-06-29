@@ -4,6 +4,8 @@ from time import sleep
 from datetime import datetime
 from math import floor
 
+MARGIN_SHARED = '1in'
+
 version = "1"
 
 baseTen = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -138,10 +140,10 @@ def build_pdf(questions: list):
 
     pdfoptions = {
         'enable-local-file-access': '',
-        'margin-top':'0.5in',
-        'margin-bottom':'0.5in',
-        'margin-left':'0.5in',
-        'margin-right':'0.5in',
+        'margin-top':MARGIN_SHARED,
+        'margin-bottom':MARGIN_SHARED,
+        'margin-left':MARGIN_SHARED,
+        'margin-right':MARGIN_SHARED,
         'page-size':'A4',
         'orientation':'Portrait',
         'encoding':'UTF-8',
